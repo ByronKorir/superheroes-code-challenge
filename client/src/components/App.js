@@ -5,6 +5,7 @@ import Home from "./Home";
 import HeroPowerForm from "./HeroPowerForm";
 import Power from "./Power";
 import PowerEditForm from "./PowerEditForm";
+import { BrowserRouter } from "react-router-dom/cjs/react-router-dom.min";
 
 function App() {
   return (
@@ -30,6 +31,14 @@ function App() {
         </Switch>
       </main>
     </div>
+    // <div>
+    //   <Header/>
+    //   <BrowserRouter>
+    //     <Routes>
+    //       <Route path='/' index
+    //     </Routes>
+    //   </BrowserRouter>
+    // </div>
   );
 }
 

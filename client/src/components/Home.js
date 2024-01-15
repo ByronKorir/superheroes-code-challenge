@@ -9,6 +9,7 @@ function Home() {
       .then((r) => r.json())
       .then(setHeros);
   }, []);
+  // console.log(heros)
 
   return (
     <section>
@@ -20,6 +21,7 @@ function Home() {
           </li>
         ))}
       </ul>
+      
     </section>
   );
 }
